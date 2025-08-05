@@ -1,9 +1,10 @@
 # temp-TLDA model
-[Publication]
+*“Title of the Paper: A Study using Transfer Learning”*  
+_Author1, Author2, et al. (Year)_
 
 ## Overview
 
-![Flowchart of Model](FlowChart.png)
+<img src="FlowChart.png" width="200"/>
 
 ## Table of Contents
 - [Installation](#installation)
