@@ -3,6 +3,7 @@
 _Author1, Author2, et al. (Year)_
 
 ## Overview
+Racial disparities in breast cancer outcomes remain a critical public health issue, particularly for African American women who experience significantly higher mortality rates compared to European American women. One of the contributing factors is the underrepresentation of racially diverse populations in cancer genomics datasets, which limits the generalizability of machine learning (ML) models. In this study, we propose a weighted multimodal model that integrates transfer learning and data augmentation techniques to address these disparities. Using mRNA, miRNA, and DNA methylation data from The Cancer Genome Atlas (TCGA), we pretrain our model on European American samples and adapt it to African American data through transfer learning. We also apply SMOTE to enhance minority class representation. Additionally, we implement omics-aware weighting to optimize the integration of multi-omics features. Our results demonstrate that the combined application of transfer learning and data augmentation, with appropriate omics weighting, significantly improves predictive performance in the African American cohort. This approach provides a promising strategy to improve model equity and accuracy in cancer prognosis for underrepresented populations.  
 
 <p align="center">
   <img src="FlowChart.png" width="80%"/>
