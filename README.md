@@ -4,7 +4,9 @@ _Author1, Author2, et al. (Year)_
 
 ## Overview
 
-<img src="FlowChart.png" width="350"/>
+<p align="center">
+  <img src="FlowChart.png" width="80%"/>
+</p>
 
 ## Table of Contents
 - [Installation](#installation)
@@ -22,7 +24,8 @@ cd /your path/temp-TLDA_Model
 pip install .
 ```
 
+## Instructions
+
 ## Troubleshooting
-We kindly ask users and contributors to utilize the Issues section of this repository for reporting bugs, requesting new features, or documenting any technical difficulties encountered during usage.
-Providing detailed information—such as error messages, steps to reproduce, and system configuration—greatly facilitates the troubleshooting process and helps maintain the quality and reliability of this project.
+We kindly ask users and contributors to utilize the Issues section of this repository for reporting bugs, requesting new features, or documenting any technical difficulties encountered during usage. Providing detailed information—such as error messages, steps to reproduce, and system configuration—greatly facilitates the troubleshooting process and helps maintain the quality and reliability of this project.
 
