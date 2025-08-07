@@ -1,10 +1,10 @@
-# temp-TLDA model
-## Citation
+# MOTIF: Multi-Omics Transfer learning with Interpolation-based augmentation to frame breast cancer racial disparities (To update)
+## Citation (To update)
 *“Title of the Paper: A Study using Transfer Learning”*  
 _Author1, Author2, et al. (Year)_
 
 ## Overview
-Racial disparities in breast cancer outcomes remain a critical public health issue, particularly for African American women who experience significantly higher mortality rates compared to European American women. One of the contributing factors is the underrepresentation of racially diverse populations in cancer genomics datasets, which limits the generalizability of machine learning (ML) models. In this study, we propose a weighted multimodal model that integrates transfer learning and data augmentation techniques to address these disparities. Using mRNA, miRNA, and DNA methylation data from The Cancer Genome Atlas (TCGA), we pretrain our model on European American samples and adapt it to African American data through transfer learning. We also apply SMOTE to enhance minority class representation. Additionally, we implement omics-aware weighting to optimize the integration of multi-omics features. Our results demonstrate that the combined application of transfer learning and data augmentation, with appropriate omics weighting, significantly improves predictive performance in the African American cohort. This approach provides a promising strategy to improve model equity and accuracy in cancer prognosis for underrepresented populations.  
+Racial disparities in breast cancer outcomes remain a major public health concern, particularly for African American women, who exhibit significantly higher mortality rates compared to their European American counterparts. A key contributing factor is the underrepresentation of racially diverse populations in cancer genomics datasets, which hinders the generalizability of machine learning (ML) models. To address this issue, we propose a weighted multimodal framework that incorporates transfer learning and interpolation-based data augmentation. Utilizing mRNA, miRNA, and DNA methylation data from The Cancer Genome Atlas (TCGA), the model is pretrained on European American samples and fine-tuned on African American data. SMOTE is applied to enhance minority class representation, and omics-aware weighting is employed to optimize multi-omics integration. Experimental results show that this combined strategy substantially improves predictive performance for the African American cohort, offering a promising approach for mitigating performance gaps in cancer prognosis modeling.
 
 <p align="center">
   <img src="FlowChart.png" width="65%"/>
