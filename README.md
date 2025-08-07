@@ -56,7 +56,7 @@ cd /your path/MOTIF
 ## Instructions
 
 ```
-usage: BRCA_MOTIF.py [-h] --in_path IN_PATH --out_path OUT_PATH --cpoint CPOINT --year YEAR
+usage: run_MOTIF.py [-h] --in_path IN_PATH --out_path OUT_PATH --cpoint CPOINT --year YEAR
 
 This script implements a fairness-aware deep learning model designed to mitigate
 racial disparities in breast cancer prognosis. It integrates transfer learning and
@@ -75,7 +75,7 @@ optional arguments:
   --year YEAR           Time threshold used to define positive prognosis events.
 
 Examples:
-  python BRCA_MOTIF.py \
+  python run_MOTIF.py \
       --in_path /home/user/project/input \
       --out_path /home/user/project/output \
       --cpoint PFI \
