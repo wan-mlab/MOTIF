@@ -35,13 +35,9 @@ This model requires following python packages.
 | tensorflow         | 2.11.0                     |
 | keras              | 2.11.0                     |
 | theano             | 1.0.5                      |
-| lasagne            | _(See installation note below)_    |
 | scikit-learn       | 1.2.2                      |
 | imbalanced-learn   | 0.10.1                     |
 | scipy              | 1.10.1                     |
-
-🔔 **Note**: `lasagne` is not available on PyPI. Install via GitHub:  
-> `pip install https://github.com/Lasagne/Lasagne/archive/master.zip`
 
 ## Installation
 1. Clone the _**MOTIF**_ git repository
