@@ -1,7 +1,6 @@
 <h1><strong>MOTIF</strong></h1>
 <p>
-  <strong><ins>M</ins></strong>ulti-
-  <strong><ins>O</ins></strong>mics
+  <strong><ins>M</ins></strong>ulti-<strong><ins>O</ins></strong>mics
   <strong><ins>T</ins></strong>ransfer learning with
   <strong><ins>I</ins></strong>nterpolation-based augmentation to
   <strong><ins>F</ins></strong>rame breast cancer racial disparities
