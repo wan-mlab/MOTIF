@@ -46,7 +46,7 @@ git clone https://github.com/wan-mlab/MOTIF.git
 ```
 2. Navigate to the directory of _**MOTIF**_ package
 ```bash
-cd /your path/MOTIF
+cd /your_path/MOTIF
 ```
 
 ## Instructions
