@@ -13,7 +13,7 @@ parser = argparse.ArgumentParser(
     epilog=(
         "Examples:\n"
         "   python run_MOTIF.py \\\n"
-        "       --dat_path /home/user/project/data \\\n"
+        "       --dat_path /home/user/project/MOTIF/data \\\n"
         "       --out_path /home/user/project/output \\\n"
         "       --cpoint PFI \\\n"
         "       --year 3"
