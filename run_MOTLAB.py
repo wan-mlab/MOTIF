@@ -12,8 +12,8 @@ parser = argparse.ArgumentParser(
                 ),
     epilog=(
         "Examples:\n"
-        "   python run_MOTIF.py \\\n"
-        "       --dat_path /home/user/project/MOTIF/data \\\n"
+        "   python run_MOTLAB.py \\\n"
+        "       --dat_path /home/user/project/MOTLAB/data \\\n"
         "       --out_path /home/user/project/output \\\n"
         "       --cpoint PFI \\\n"
         "       --year 3"
@@ -747,15 +747,15 @@ def run_BRCA_inter_cv(data, years, target, k_value, fn, tn, comb1, comb2, comb3)
 
     fkey = str(comb1) + "_" + str(comb2) + "_" + str(comb3)
 
-    f_name = "BRCA-AA-EA-TripleOmics-MOTIFres-" + str(target) + "-" + str(years) + "YR_MJ_K" + str(k) + "_" + fkey + ".xlsx"
+    f_name = "BRCA-AA-EA-TripleOmics-MOTLABres-" + str(target) + "-" + str(years) + "YR_MJ_K" + str(k) + "_" + fkey + ".xlsx"
     res.to_excel(f_name)
     summary_df = pd.DataFrame(
         {"Column": res.columns, "Mean": res.mean(), "Standard Deviation": res.std()}
     )
     summary_df.to_excel(
-        "summary-BRCA-AA-EA-TripleOmics-MOTIFres-" + str(target) + "-" + str(years) + "YR_MJ_K" + str(k) + ".xlsx"
+        "summary-BRCA-AA-EA-TripleOmics-MOTLABres-" + str(target) + "-" + str(years) + "YR_MJ_K" + str(k) + ".xlsx"
     )
-    name = "BRCA-AA-EA-TripleOmics-MOTIFres-" + str(target) + "-" + str(years) + "YR_MJ_K" + str(k) + "_" + fkey + ".pkl"
+    name = "BRCA-AA-EA-TripleOmics-MOTLABres-" + str(target) + "-" + str(years) + "YR_MJ_K" + str(k) + "_" + fkey + ".pkl"
     with open(name, "wb") as file:
         pickle.dump(score_dict, file)
 
