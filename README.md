@@ -33,19 +33,19 @@ This model requires following python packages.
 | scipy              | 1.10.1                     |
 
 ## Installation
-1. Clone the _**MOTIF**_ git repository
+1. Clone the _**MOTLAB**_ git repository
 ```bash
-git clone https://github.com/wan-mlab/MOTIF.git
+git clone https://github.com/wan-mlab/MOTLAB.git
 ```
-2. Navigate to the directory of _**MOTIF**_ package
+2. Navigate to the directory of _**MOTLAB**_ package
 ```bash
-cd /your_path/MOTIF
+cd /your_path/MOTLAB
 ```
 
 ## Instructions
 
 ```
-usage: run_MOTIF.py [-h] --in_path IN_PATH --out_path OUT_PATH --cpoint CPOINT --year YEAR
+usage: run_MOTLAB.py [-h] --in_path IN_PATH --out_path OUT_PATH --cpoint CPOINT --year YEAR
 
 This script implements a fairness-aware deep learning model designed to mitigate
 racial disparities in breast cancer prognosis. It integrates transfer learning and
@@ -67,7 +67,7 @@ optional arguments:
 ## Example  
 
 ```
-python run_MOTIF.py \
+python run_MOTLAB.py \
       --in_path /home/user/project/input \
       --out_path /home/user/project/output \
       --cpoint PFI \
