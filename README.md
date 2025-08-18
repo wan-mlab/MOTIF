@@ -78,6 +78,6 @@ python run_MOTLAB.py \
 
 We kindly ask users and contributors to utilize the Issues section of this repository for reporting bugs, requesting new features, or documenting any technical difficulties encountered during usage. We monitor submitted issues regularly and will do our best to respond in a timely and constructive manner. 
 
-## Citation (To update)
+## Citation (To be updated)
 *“Title of the Paper: A Study using Transfer Learning”*  
 _Author1, Author2, et al. (Year)_
